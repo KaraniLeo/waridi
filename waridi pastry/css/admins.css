@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, sans-serif ;
+  background-image: url(img1.jpg);
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ece0e0;
+  }
+  
+table {
+    width: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  form button:hover {
+    background-color: #0069d9;
+  }
