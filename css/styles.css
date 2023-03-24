@@ -1,0 +1,35 @@
+header {
+  background-color: #c47c10d5;
+  padding: 10px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  margin-right: 0px;
+}
+header nav ul li a {
+  color: rgb(245, 245, 245);
+  font-family: Helvetica, sans-serif;
+
+}
+header nav ul li a:hover {
+  color: rgb(10, 8, 8);
+}
+#reset-content form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.658);
+  align-items: center;
+}
+#reset-content form button {
+  width: 150px;
+  padding: 10px;
+  
+}

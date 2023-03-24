@@ -1,0 +1,98 @@
+
+/* general styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/bckg3.jpg);
+    background-size: cover;
+    width: auto;
+    height: 800px;
+    text-align: center;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #FEFEFE;
+  }
+
+  /* grid layout styles */
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: auto;
+  }
+  /* menu item styles */
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4S00px;
+    text-align: center;
+    width: 350px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .menu-item img {
+    max-width: 70%;
+    max-height: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  .menu-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .menu-item p {
+    color: #888;
+    font-size: 1em;
+    margin: 0;
+  }
+  /* "add to cart" button styles */
+  .menu-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .menu-item button:hover {
+    background-color: #0069d9;
+  }
+  /* checkout page styles */
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    color: #000;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f9f9f9;
+  }
+  /* "buy now" button styles */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  button:hover {
+    background-color: #0069d9;
+  }
